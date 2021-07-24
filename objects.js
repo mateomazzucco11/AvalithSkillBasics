@@ -28,6 +28,16 @@ let clavesDelObjeto = [];
     Reemplazar este comentario con su codigo.
  */
 
+const { nombre, edad, preferidos, madre } = originalA
+
+edadMadre = madre.edad;
+objetoParseado = JSON.parse(originalB);
+existeClaveMadreA = originalA.hasOwnProperty('madre')
+existeClaveMadreB = objetoParseado.hasOwnProperty('madre')
+nombreDelMasJoven = originalA.edad > objetoParseado.edad ? originalA.nombre : objetoParseado.nombre;
+clavesDelObjeto = Object.keys(originalA);
+
+
 console.log(edadMadre);
 console.log(objetoParseado);
 console.log(existeClaveMadreA);

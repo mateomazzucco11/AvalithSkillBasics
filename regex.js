@@ -10,4 +10,6 @@ let textoCensurado = null;
     Reemplazar este comentario con su codigo.
  */
 
+textoCensurado = texto.replace(/\w/g, 'X')
+
 console.log(textoCensurado)

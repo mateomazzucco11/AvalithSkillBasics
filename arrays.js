@@ -19,6 +19,16 @@ let arregloConNuevoColorFin = [];
     Reemplazar este comentario con su codigo.
  */
 
+indiceAmarillo = original.indexOf('Amarillo')
+cantidadColoresConA = original.filter(tienenA => tienenA.toLowerCase().includes('a')).length
+arregloSinAzul = original.filter(blue => blue !== 'Azul')
+ordenadoPorCantidadLetras = [...original].sort((a, b) => a.length - b.length);
+arregloConNuevoColorInicio = ['Violeta', ...original]
+arregloConNuevoColorFin = [...original, 'Rosa']
+
+
+
+
 console.log(indiceAmarillo);
 console.log(cantidadColoresConA);
 console.log(arregloSinAzul);

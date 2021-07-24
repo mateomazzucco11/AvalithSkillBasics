@@ -11,7 +11,7 @@
 */
 
 try {
-    /* TODO */ A = null;
+    A = null;
     A = 'Valor A';
 } catch (error) {
     console.log('Error al asignar A');
@@ -24,7 +24,7 @@ try {
 }
 
 try {
-    /* TODO */ B = null;
+    let B = null;
     B = 'Valor B';
 } catch (error) {
     console.log('Error al asignar B');
@@ -37,7 +37,7 @@ try {
 }
 
 try {
-    /* TODO */ C = null;
+    const C = null;
     C = 'Valor C';
 } catch (error) {
     console.log('Error al asignar C');

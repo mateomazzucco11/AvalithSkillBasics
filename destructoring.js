@@ -7,6 +7,7 @@ const original = {
 let sinB = null;
 let valorDeC = null;
 
+
 /*
     Utilizando SOLAMENTE destructoring, obtener los siguientes resultados:
     - sinB: Una copia del objeto original sin la clave "b"
@@ -14,6 +15,11 @@ let valorDeC = null;
 
     Reemplazar este comentario con su codigo.
  */
+
+const { a, c } = original;
+sinB = { a, c };
+valorDeC = c;
+
 
 console.log(sinB);
 console.log(valorDeC);

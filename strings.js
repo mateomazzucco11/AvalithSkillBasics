@@ -21,6 +21,12 @@ let arregloParseado = [];
 
     Reemplazar este comentario con su codigo.
  */
+tamanioA = stringA.length
+cantidadLetraR = stringA.match(/r/gi).length
+nombreCompleto = stringB + ' ' + stringC;
+fraseOtroNombre = stringD.replace('Damian', stringB)
+posicionNombre = stringD.indexOf('Damian')
+arregloParseado = stringA.split(',')
 
 console.log(tamanioA);
 console.log(cantidadLetraR);
